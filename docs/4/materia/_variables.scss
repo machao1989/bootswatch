@@ -17,7 +17,7 @@ $gray-800: #222 !default;
 $gray-900: #212121 !default;
 $black:    #000 !default;
 
-$blue:    #2196f3 !default;
+$blue: #c27bee !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -41,6 +41,8 @@ $yiq-contrasted-threshold:  170 !default;
 
 $enable-gradients: true !default;
 
+$border-radius:               0rem !default;
+
 // Body
 
 $body-color:    $gray-700 !default;
@@ -54,7 +56,7 @@ $font-weight-base:          400 !default;
 
 // Buttons
 
-$input-btn-padding-y:       .8rem !default;
+$input-btn-padding-y:       .5rem !default;
 $input-btn-padding-x:       1rem !default;
 
 // Forms
@@ -92,7 +94,7 @@ $nav-tabs-border-color:         transparent !default;
 
 // Navbar
 
-$navbar-padding-y:                  1rem !default;
+$navbar-padding-y:                  0.2rem !default;
 $navbar-dark-color:                 rgba($white, .75) !default;
 $navbar-dark-hover-color:           $white !default;
 
