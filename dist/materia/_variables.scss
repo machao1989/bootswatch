@@ -17,14 +17,15 @@ $gray-800: #222 !default;
 $gray-900: #212121 !default;
 $black:    #000 !default;
 
-$blue: #c27bee !default;
+$blue: #4285F4 !default;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$purple:  #aa66cc !default;
 $pink:    #e83e8c !default;
-$red:     #e51c23 !default;
+$red:     #ff4444 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ff9800 !default;
-$green:   #4caf50 !default;
+$yellow:  #ffbb33 !default;
+$green:   #00C851 !default;
+$green-dark:   #007E33 !default;
 $teal:    #20c997 !default;
 $cyan:    #9c27b0 !default;
 
@@ -37,13 +38,17 @@ $danger:        $red !default;
 $light:         $white !default;
 $dark:          $gray-800 !default;
 
+$theme-colors: (
+  "green-dark": $green-dark,
+);
+
 $yiq-contrasted-threshold:  170 !default;
 
-$enable-gradients: true !default;
+$enable-gradients: false !default;
 
-$border-radius:               0rem !default;
-$border-radius-sm:               0rem !default;
-$border-radius-lg:               0rem !default;
+$border-radius:               0.125rem !default;
+$border-radius-sm:            0.125rem !default;
+$border-radius-lg:            0.125rem !default;
 
 // Body
 
@@ -58,7 +63,7 @@ $font-weight-base:          400 !default;
 
 // Buttons
 
-$input-btn-padding-y:       .5rem !default;
+$input-btn-padding-y:       .375rem !default;
 $input-btn-padding-x:       1rem !default;
 
 // Forms
